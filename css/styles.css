@@ -1,0 +1,43 @@
+:root{
+  --text-color:hsl(67, 85%, 92%);
+}
+body{
+  background-color:hsl(195, 89%, 28%);
+  color:var(--text-color);
+  font-family: monospace;
+  font-size:15px;
+}
+
+h1 {
+  background-color: hsl(250, 78%, 11%);
+  text-align:center;
+  font-size:2em;
+  padding:1em;
+}
+
+p {
+  text-align:justify;
+}
+
+#image{
+  height:auto;
+  display:block;
+  margin: auto;
+  max-width: 100%;
+}
+
+#img-caption{
+  text-align:center;
+  margin-top:10px;
+}
+
+a {
+  color:hsl(198, 63%, 67%);
+}
+
+a{
+  color:orange;
+}
+#tribute-link:visited{
+  color:hsl(250, 78%, 11%);
+}
